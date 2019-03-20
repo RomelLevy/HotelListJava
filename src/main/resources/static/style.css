@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #7070db;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+  height: 100%;
+}
+
+body {
+
+  animation: myanimation 50s infinite;
+}
+
+@keyframes myanimation {
+	
+  0% {background-image: url(/images/murucutu-686316-unsplash.jpg);
+       background-size: cover;
+  }
+  25%{background-image:url(/images/jeshoots-com-722888-unsplash.jpg);
+      background-size: cover;
+  
+  }
+  50%{background-image:url(/images/patrick-hendry-180864-unsplash.jpg);
+     background-size: cover;
+     }
+  65%{background-image:url(/images/jonathan-chng-755305-unsplash.jpg);
+     background-size: cover;
+  }
+  100% {background-image:url(/images/reynier-carl-440180-unsplash.jpg);
+     background-size: cover;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
